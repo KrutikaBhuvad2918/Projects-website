@@ -2,11 +2,11 @@
     padding: 0%;
     margin: 0%;
 }
-body{
+/* body{
     background-image: url("netflix-bg.jpg");
     color: white;
     background: linear-gradient(to top left,rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url("netflix-bg.jpg"),center center/cover;
-} 
+}  */
 .container{
     height: 100vh;
     background-color: rgba(0,0,0,0.3);
@@ -14,6 +14,9 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url("netflix-bg.jpg");
+    color: white;
+    background: linear-gradient(to top left,rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url("netflix-bg.jpg"),center center/cover;
 }
 .logo{
     width: 150px;
@@ -81,4 +84,182 @@ p{
     color: white;
     /* font-weight: bold; */
     margin-left: 7px;
+}
+.middle{
+    height: 250vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: black;
+    
+}
+.box-container{
+    display: flex;
+    padding: 10px;
+    gap: 50px;
+    overflow: auto;
+    background-color: transparent;
+    width: 80%;
+    scrollbar-width: none;
+
+}
+.box1{
+    background-color: red;
+    height: 250px;
+    min-width: 180px;
+    box-sizing: border-box;
+    border-radius: 11px;
+    background-image: url("lucky-baskhar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box2{
+    background-color: red;
+    height: 250px;
+    min-width: 180px;
+    box-sizing: border-box;
+    border-radius: 11px;
+    background-image: url("vicky-vidya.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box3{
+    background-color: red;
+    height: 250px;
+    min-width: 180px;
+    box-sizing: border-box;
+    border-radius: 11px;
+    background-image: url("amaran.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box4{
+    background-color: red;
+    height: 250px;
+    min-width: 180px;
+    box-sizing: border-box;
+    border-radius: 11px;
+    background-image: url("jigra.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box5{
+    background-color: red;
+    height: 250px;
+    min-width: 180px;
+    box-sizing: border-box;
+    border-radius: 11px;
+    background-image: url("thangalam.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box6{
+    background-color: red;
+    height: 250px;
+    min-width: 180px;
+    box-sizing: border-box;
+    border-radius: 11px;
+    background-image: url("sikandar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box7{
+    background-color: red;
+    height: 250px;
+    min-width: 180px;
+    box-sizing: border-box;
+    border-radius: 11px;
+    background-image: url("devara.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box8{
+    background-color: red;
+    height: 250px;
+    min-width: 180px;
+    box-sizing: border-box;
+    border-radius: 11px;
+    background-image: url("pushpa2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box1:hover,.box2:hover,.box3:hover,.box4:hover,.box5:hover,.box6:hover,.box7:hover,.box8:hover{
+    transform: scale(1.1,1.1);
+    border-radius: 10px;
+}
+.btn{
+    width: 70%;
+   height: 30px;
+   color: white;
+   font-weight: bold;
+   background-color: red;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   margin-top: 125%;
+   margin-left: 30px;
+}
+
+.box-card{
+    display: flex;
+    padding: 10px;
+    gap:15px;
+}
+.card1{
+    width: 280px;
+    height: 250px;
+    background-color: blueviolet;
+}
+.card2{
+    width: 280px;
+    height: 250px;
+    background-color: blueviolet;
+}
+.card3{
+    width: 280px;
+    height: 250px;
+    background-color: blueviolet;
+}
+.card4{
+    width: 280px;
+    height: 250px;
+    background-color: blueviolet;
+}
+.faq{
+    color: white;
+}
+.faq h2{
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: white;
+}
+.faqbox{
+    display: flex;
+    background-color: #2d2d2d;
+    padding: 20px;
+    max-width: 60vw;
+    margin-bottom: 10px;
+    /* margin: 34px auto; */
+    transition: all 1s;
+    font-size: 24px;
+}
+.faqbox:hover{
+    background-color: rgb(37,36,36);
+}
+footer{
+    color: white;
+    max-width: 60vw;
+}
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.footer{
+    display: grid;
+    color: white;
+    display: flex;
+   justify-content: space-between;
+}
+.footer a{
+    font-size: 14px;
+    color: white;
 }
